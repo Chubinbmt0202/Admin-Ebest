@@ -1,13 +1,13 @@
 import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons';
-import { Menu, MenuProps } from 'antd';
+import { Menu, MenuProps, Image } from 'antd';
 import Color from 'color';
 import { m } from 'framer-motion';
 import { CSSProperties, useEffect, useMemo, useState } from 'react';
 import { useLocation, useMatches, useNavigate } from 'react-router-dom';
 
+import Logoicon from '@/assets/images/logo.png';
 import MotionContainer from '@/components/animate/motion-container';
 import { varSlide } from '@/components/animate/variants';
-import Logo from '@/components/logo';
 import Scrollbar from '@/components/scrollbar';
 import { useRouteToMenuFn, usePermissionRoutes, useFlattenedRoutes } from '@/router/hooks';
 import { menuFilter } from '@/router/utils';
@@ -122,11 +122,11 @@ export default function Nav(props: Props) {
     >
       <div className="relative flex h-20 items-center justify-center py-4">
         <MotionContainer className="flex items-center">
-          <Logo />
+          <Image width={40} src={Logoicon} />
           {themeLayout !== ThemeLayout.Mini && (
             <m.div variants={slideInLeft}>
-              <span className="ml-2 text-xl font-bold" style={{ color: colorPrimary }}>
-                Slash Admin
+              <span className="ml-2 text-xl font-bold" style={{ color: '#e35222' }}>
+                Ebest English
               </span>
             </m.div>
           )}

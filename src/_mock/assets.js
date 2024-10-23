@@ -38,11 +38,11 @@ export const ORG_LIST = [
 const DASHBOARD_PERMISSION = {
   id: '9100714781927703',
   parentId: '',
-  label: 'sys.menu.dashboard',
-  name: 'Dashboard',
+  label: 'Phân tích',
+  name: 'Phân tích',
   icon: 'ic-analysis',
   type: PermissionType.CATALOGUE,
-  route: 'dashboard',
+  route: 'Phân tích',
   order: 1,
   children: [
     {

@@ -83,17 +83,17 @@
       "closeRight": "Close Right"
     },
     "menu": {
-      "dashboard": "Dashboard",
-      "workbench": "Workbench",
-      "analysis": "Analysis",
-      "management": "Management",
+      "dashboard": "Bảng điều khiển",
+      "workbench": "Tổng quan",
+      "analysis": "Phân tích",
+      "management": "Quản lý",
       "user": {
-        "index": "User",
-        "profile": "Profile",
+        "index": "Học viên",
+        "profile": "Danh sách",
         "account": "Account"
       },
       "system": {
-        "index": "System",
+        "index": "Giáo viên",
         "organization": "Organization",
         "permission": "Permission",
         "role": "Role",

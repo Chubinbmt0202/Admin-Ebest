@@ -26,15 +26,15 @@ export default function BannerCard() {
           className="mt-4 text-lg font-semibold md:text-xl"
           style={{ color: themeToken.colorPrimaryActive }}
         >
-          <h4>Welcome back 👋 </h4>
+          <h4>Chào mừng trở lại 👋 </h4>
           <h4>{username}</h4>
         </div>
         <div
           style={{ color: themeToken.colorPrimaryTextActive }}
           className="mx-auto mb-6 mt-4 max-w-sm text-sm opacity-80 md:mx-0"
         >
-          Welcome to join the Discord channel to discuss everything about Slash Admin, or you can
-          visite my blog:
+          Welcome to join the Discord channel to discuss everything about Trung tâm quản lý Ebest,
+          or you can visite my blog:
           <div>
             <a
               href="https://blog.slashspaces.com"
